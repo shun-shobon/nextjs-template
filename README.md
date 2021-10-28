@@ -26,12 +26,6 @@ $ pnpm start
 $ pnpm dev
 ```
 
-### Start development server
-
-```shell
-$ pnpm dev
-```
-
 ### Start storybook server
 
 ```shell
