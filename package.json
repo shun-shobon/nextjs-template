@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write --ignore-path .gitignore \"**/*.{js,ts,jsx,tsx,css}\""
+    "format": "prettier --write --ignore-path .gitignore \"**/*.{js,ts,jsx,tsx,css}\"",
+    "storybook": "start-storybook -p 5000"
   },
   "dependencies": {
     "next": "12.0.1",
@@ -15,6 +16,11 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.3.12",
+    "@storybook/manager-webpack5": "^6.3.12",
+    "@storybook/react": "^6.3.12",
     "@types/node": "16.11.6",
     "@types/react": "17.0.33",
     "autoprefixer": "^10.3.7",
