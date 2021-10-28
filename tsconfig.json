@@ -29,6 +29,7 @@
   },
   "include": [
     "next-env.d.ts",
+    "jest.setup.ts",
     "**/*.ts",
     "**/*.tsx"
   ],
