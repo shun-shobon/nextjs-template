@@ -1,0 +1,7 @@
+node_modules/
+.yarn/
+.pnp.*
+/.next/
+/out/
+/coverage/
+/storybook/

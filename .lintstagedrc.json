@@ -1,4 +1,4 @@
 {
-  "*.{js,jsx,ts,tsx}": "yarn run eslint --fix",
-  "*.{js,jsx,ts,tsx,css}": "yarn run stylelint --fix"
+  "*.{js,jsx,ts,tsx}": "eslint --fix",
+  "*.{js,jsx,ts,tsx,css,json,yml,md}": "prettier --write"
 }

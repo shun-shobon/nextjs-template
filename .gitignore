@@ -1,5 +1,15 @@
-/node_modules
-/coverage
+node_modules/
+
+# Yarn関連
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Next.js関連
 /.next/
 /out/
 .env.local
@@ -8,3 +18,9 @@
 .env.production.local
 .vercel
 *.tsbuildinfo
+
+# テストカバレッジ
+/coverage/
+
+# Storybook
+/storybook/
