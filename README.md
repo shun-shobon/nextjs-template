@@ -5,53 +5,47 @@
 ### Install
 
 ```shell
-$ pnpm install
+$ yarn install
 ```
 
 ### Build
 
 ```shell
-$ pnpm build
+$ yarn build
 ```
 
 ### Start production server
 
 ```shell
-$ pnpm start
+$ yarn start
 ```
 
 ### Start development server
 
 ```shell
-$ pnpm dev
+$ yarn dev
 ```
 
 ### Start storybook server
 
 ```shell
-$ pnpm storybook
+$ yarn storybook
 ```
 
-### Run type checker
+### Run all linter
 
 ```shell
-$ pnpm type
+$ yarn lint
 ```
 
-### Run linter
+### Run all auto fix
 
 ```shell
-$ pnpm lint
-```
-
-### Run formatter
-
-```shell
-$ pnpm format
+$ yarn fix
 ```
 
 ### Run test
 
 ```shell
-$ pnpm test
+$ yarn test
 ```
