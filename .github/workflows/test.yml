@@ -1,4 +1,4 @@
-name: Lint
+name: Test
 on:
   push:
 
@@ -8,13 +8,6 @@ permissions:
 jobs:
   lint:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        linter:
-          - eslint
-          - stylelint
-          - prettier
-          - tsc
     steps:
       - uses: actions/checkout@v3
       - uses: shun-shobon/actions/setup-node@master
