@@ -1,26 +1,25 @@
-name: test
+name: Lint
 on:
   push:
 
-env:
-  HUSKY: 0
+permissions:
+  contents: read
 
 jobs:
-  test:
+  lint:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        linter:
+          - eslint
+          - stylelint
+          - prettier
+          - tsc
     steps:
-      - uses: actions/checkout@v2
-      - id: nvm
-        run: echo "::set-output name=nvmrc::$(cat .nvmrc)"
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: shun-shobon/actions/setup-node@master
         with:
-          node-version: ${{ steps.nvm.outputs.nvmrc }}
-      - uses: actions/cache@v2
-        with:
-          path: .yarn/cache
-          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: ${{ runner.os }}-
-      - run: yarn install --immutable
+          node-version: "lts/*"
 
       - name: Run test
         run: yarn test:ci

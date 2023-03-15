@@ -2,19 +2,20 @@
   "name": "nextjs-template",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@7.29.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "test": "jest --coverage",
-    "test:update": "yarn test -u",
-    "test:ci": "yarn test --ci",
+    "test:update": "pnpm test -u",
+    "test:ci": "pnpm test --ci",
     "lint": "run-s -c 'lint:*'",
     "lint:eslint": "next lint",
     "lint:prettier": "prettier --check .",
     "lint:tsc": "tsc",
     "fix": "run-s -c 'fix:*'",
-    "fix:eslint": "yarn lint:eslint --fix",
+    "fix:eslint": "pnpm lint:eslint --fix",
     "fix:prettier": "prettier --write .",
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook -o storybook",
@@ -56,6 +57,5 @@
     "tailwindcss": "^3.1.5",
     "typescript": "^4.7.4",
     "webpack": "^5.73.0"
-  },
-  "packageManager": "yarn@3.2.0"
+  }
 }
