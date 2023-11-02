@@ -8,11 +8,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "run-s -c 'lint:*'",
+    "lint": "run-p -c 'lint:*'",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check './*.config.js' 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:tsc": "tsc",
-    "lint-fix": "run-s -c 'fix:*'",
+    "lint-fix": "run-s -c 'lint-fix:*'",
     "lint-fix:eslint": "pnpm lint:eslint --fix",
     "lint-fix:prettier": "prettier --write './*.config.js' 'src/**/*.{js,jsx,ts,tsx}'"
   },
