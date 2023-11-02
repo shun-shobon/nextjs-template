@@ -17,7 +17,11 @@
     "skipLibCheck": true,
     "strict": true,
     "verbatimModuleSyntax": true,
-    "allowJs": true
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "#src/*": ["src/*"]
+    }
   },
   "exclude": [
     "**/node_modules",
