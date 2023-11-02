@@ -1,51 +1,69 @@
-# Next.js template
+# Next.js Template
 
-## Usage
+## About
 
-### Install
+Next.jsのプロジェクトテンプレートです。
+Next.jsの開発に必要な周辺ツールやその設定を含んでいるため、このテンプレートを使用することで直ぐに開発を始めることができます。
 
-```shell
-$ yarn install
-```
+## Features
 
-### Build
+- React + Next.js
+- TypeScript
+- Vanilla Extract
+- ESLint
+  - `@shun-shobon/eslint-config` による包括的な設定が含まれています。
+- Prettier
+- Storybook
+- GitHub Actions
 
-```shell
-$ yarn build
-```
+## Commands
 
-### Start production server
-
-```shell
-$ yarn start
-```
-
-### Start development server
+### インストール
 
 ```shell
-$ yarn dev
+pnpm install
 ```
 
-### Start storybook server
+### 開発サーバーの起動
 
 ```shell
-$ yarn storybook
+pnpm dev
 ```
 
-### Run all linter
+### ビルド
 
 ```shell
-$ yarn lint
+pnpm build
 ```
 
-### Run all auto fix
+### 本番サーバーの起動
 
 ```shell
-$ yarn fix
+pnpm start
 ```
 
-### Run test
+### Storybookの起動
 
 ```shell
-$ yarn test
+pnpm storybook
 ```
+
+### リンタの実行
+
+```shell
+pnpm lint
+```
+
+`lint:<ツール名>`で各ツールを個別に実行することもできます。
+
+### リンタの自動修正
+
+```shell
+pnpm lint-fix
+```
+
+`lint-fix:<ツール名>`で各ツールを個別に実行することもできます。
+
+## License
+
+MITライセンスです。詳しくは[LICENSE](./LICENSE)をご覧ください。
