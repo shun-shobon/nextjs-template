@@ -19,6 +19,19 @@
     "verbatimModuleSyntax": true,
     "allowJs": true
   },
-  "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"]
+  "exclude": [
+    "**/node_modules",
+    ".next/cache",
+    ".next/server",
+    ".next/static",
+    "out",
+    "storybook-static"
+  ],
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".storybook/**/*.ts"
+  ]
 }
