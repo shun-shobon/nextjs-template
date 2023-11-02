@@ -8,18 +8,14 @@ permissions:
 jobs:
   lint:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        linter:
-          - eslint
-          - prettier
-          - tsc
-      fail-fast: false
     steps:
-      - uses: actions/checkout@v3
-      - uses: shun-shobon/actions/setup-node@master
-        with:
-          node-version: "lts/*"
+      - name: Setup | Checkout
+        uses: actions/checkout@v4
 
-      - name: Run ${{ matrix.linter }}
-        run: pnpm run lint:${{ matrix.linter }}
+      - name: Setup | Node.js
+        uses: shun-shobon/actions/setup-node@master
+        with:
+          node-version-file: .tool-versions
+
+      - name: Run | Lint
+        run: pnpm run lint
