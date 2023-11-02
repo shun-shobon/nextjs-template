@@ -1,5 +1,7 @@
 # Next.js Template
 
+Next.js template with vanilla-extract, Storybook, and other tools
+
 ## About
 
 Next.jsのプロジェクトテンプレートです。
@@ -9,7 +11,7 @@ Next.jsの開発に必要な周辺ツールやその設定を含んでいるた�
 
 - React + Next.js
 - TypeScript
-- Vanilla Extract
+- vanilla-extract
 - ESLint
   - `@shun-shobon/eslint-config` による包括的な設定が含まれています。
 - Prettier
