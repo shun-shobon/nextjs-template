@@ -1,15 +1,13 @@
-import type { ReactNode } from "react";
+import { clsx } from "clsx";
+import type { ComponentPropsWithoutRef, ReactNode } from "react";
 
-export type ButtonProps = {
-  onClick?: () => void;
-  children: ReactNode;
-};
+import * as styles from "./Button.css";
 
-export const Button = ({ children, onClick }: ButtonProps): JSX.Element => (
-  <button
-    className="rounded-full bg-blue-400 px-4 py-1 text-white"
-    onClick={onClick}
-  >
-    {children}
-  </button>
-);
+export type ButtonProps = ComponentPropsWithoutRef<"button">;
+
+export default function Button({
+  className,
+  ...props
+}: ButtonProps): ReactNode {
+  return <button className={clsx(styles.button, className)} {...props} />;
+}

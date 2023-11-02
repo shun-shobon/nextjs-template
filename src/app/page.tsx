@@ -1,12 +1,13 @@
 import type { ReactNode } from "react";
 
-import { Button } from "../components/Button";
+import Button from "../components/Button/Button";
+import * as styles from "./page.css";
 
 export default function Page(): ReactNode {
   return (
-    <div className="absolute grid h-full w-full place-items-center">
-      <h1 className="text-4xl text-blue-400 md:text-8xl">Hello, world!</h1>
+    <main className={styles.page}>
+      <h1 className={styles.heading}>Hello, world!</h1>
       <Button>Button</Button>
-    </div>
+    </main>
   );
 }
