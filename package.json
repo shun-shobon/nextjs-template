@@ -9,6 +9,7 @@
     "build": "next build",
     "start": "next start",
     "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
     "lint": "run-p -c 'lint:*'",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check './*.config.js' 'src/**/*.{js,jsx,ts,tsx}'",

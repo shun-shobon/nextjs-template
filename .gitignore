@@ -14,4 +14,4 @@ node_modules/
 /coverage/
 
 # Storybook
-/storybook/
+/storybook-static/
