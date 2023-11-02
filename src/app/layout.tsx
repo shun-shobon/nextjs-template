@@ -1,3 +1,6 @@
+import "#src/styles/layers.css";
+import "#src/styles/reset.css";
+
 import type { ReactNode } from "react";
 
 type LayoutProps = {
