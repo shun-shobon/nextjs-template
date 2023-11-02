@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@8.10.0",
+  "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --no-lint",
     "start": "next start",
     "lint": "run-s -c 'lint:*'",
-    "lint:eslint": "next lint",
+    "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check './*.config.js' 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:tsc": "tsc",
     "lint-fix": "run-s -c 'fix:*'",
@@ -21,6 +22,9 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@shun-shobon/eslint-config-base": "^1.0.10",
+    "@shun-shobon/eslint-config-next": "^1.0.6",
+    "@shun-shobon/eslint-config-react": "^1.0.3",
     "@types/node": "^20.8.10",
     "@types/react": "^18.2.34",
     "@types/react-dom": "^18.2.14",

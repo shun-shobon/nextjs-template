@@ -1,6 +1,5 @@
-import type { NextPage } from "next";
-
 import { Button } from "components/Button";
+import type { NextPage } from "next";
 
 const Index: NextPage = () => {
   return (
