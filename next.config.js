@@ -5,6 +5,9 @@ const withVanillaExtract = createVanillaExtractPlugin();
 /** @type {import('next').NextConfig} */
 const config = {
   reactStrictMode: true,
+  experimental: {
+    webpackBuildWorker: true,
+  },
 };
 
 export default withVanillaExtract(config);
