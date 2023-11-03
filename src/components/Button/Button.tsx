@@ -1,13 +1,19 @@
 import { clsx } from "clsx";
-import type { ComponentPropsWithoutRef, ReactNode } from "react";
 
+import { forwardRef } from "../utils/forward-ref";
 import * as styles from "./Button.css";
 
-export type ButtonProps = ComponentPropsWithoutRef<"button">;
+export interface ButtonProps {}
 
-export default function Button({
-  className,
-  ...props
-}: ButtonProps): ReactNode {
-  return <button className={clsx(styles.button, className)} {...props} />;
-}
+export default forwardRef<"button">(
+  "Button",
+  ({ as: Component = "button", className, ...rest }, ref) => {
+    return (
+      <Component
+        {...rest}
+        className={clsx(styles.button, className)}
+        ref={ref}
+      />
+    );
+  },
+);

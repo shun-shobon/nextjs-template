@@ -18,3 +18,11 @@ export const Default: Story = {
     children: "Button",
   },
 };
+
+export const AsLink: Story = {
+  args: {
+    as: "a",
+    href: "#",
+    children: "Link Button",
+  },
+};
