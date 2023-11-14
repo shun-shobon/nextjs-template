@@ -56,8 +56,8 @@ devDependencies:
     specifier: ^7.5.3
     version: 7.5.3(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(vite@4.5.0)
   '@storybook/test-runner':
-    specifier: ^0.14.0
-    version: 0.14.0(@types/node@20.9.0)
+    specifier: ^0.14.1
+    version: 0.14.1(@types/node@20.9.0)
   '@storybook/testing-library':
     specifier: ^0.2.2
     version: 0.2.2
@@ -3962,8 +3962,8 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/test-runner@0.14.0(@types/node@20.9.0):
-    resolution: {integrity: sha512-gqh1q2ac84VE5tU/6Iz5HkvLcfaC91DnhtfeRDoacMlFYJhGs+xu/zjQYyzCr3MPQykm09X3Dol0BjAJtCGmDg==}
+  /@storybook/test-runner@0.14.1(@types/node@20.9.0):
+    resolution: {integrity: sha512-8W4K/dttKnecXVb1zdqebnEBWk2LmMvQPBRoFtljUkARE1+wr6HlWOBoy55QClIbssVSxrx1LvOraVy7VmS/zw==}
     engines: {node: ^14.15.0 || ^16.10.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
     dependencies:
