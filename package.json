@@ -50,7 +50,7 @@
     "@types/react-dom": "^18.2.15",
     "@vanilla-extract/css": "^1.14.0",
     "@vanilla-extract/next-plugin": "^2.3.2",
-    "@vanilla-extract/vite-plugin": "^3.9.0",
+    "@vanilla-extract/vite-plugin": "^3.9.1",
     "axe-playwright": "^1.2.3",
     "eslint": "^8.53.0",
     "eslint-plugin-storybook": "^0.6.15",
