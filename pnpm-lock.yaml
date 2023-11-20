@@ -77,8 +77,8 @@ devDependencies:
     specifier: ^2.3.2
     version: 2.3.2(@types/node@20.9.2)(next@14.0.3)(webpack@5.89.0)
   '@vanilla-extract/vite-plugin':
-    specifier: ^3.9.1
-    version: 3.9.1(@types/node@20.9.2)(vite@5.0.0)
+    specifier: ^3.9.2
+    version: 3.9.2(@types/node@20.9.2)(vite@5.0.0)
   axe-playwright:
     specifier: ^1.2.3
     version: 1.2.3(playwright@1.40.0)
@@ -5031,6 +5031,33 @@ packages:
       - terser
     dev: true
 
+  /@vanilla-extract/integration@6.2.4(@types/node@20.9.2):
+    resolution: {integrity: sha512-+AfymNMVq9sEUe0OJpdCokmPZg4Zi6CqKaW/PnUOfDwEn53ighHOMOBl5hAgxYR8Kiz9NG43Bn00mkjWlFi+ng==}
+    dependencies:
+      '@babel/core': 7.23.3
+      '@babel/plugin-syntax-typescript': 7.23.3(@babel/core@7.23.3)
+      '@vanilla-extract/babel-plugin-debug-ids': 1.0.3
+      '@vanilla-extract/css': 1.14.0
+      esbuild: 0.17.6
+      eval: 0.1.8
+      find-up: 5.0.0
+      javascript-stringify: 2.1.0
+      lodash: 4.17.21
+      mlly: 1.4.2
+      outdent: 0.8.0
+      vite: 4.5.0(@types/node@20.9.2)
+      vite-node: 0.28.5(@types/node@20.9.2)
+    transitivePeerDependencies:
+      - '@types/node'
+      - less
+      - lightningcss
+      - sass
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+    dev: true
+
   /@vanilla-extract/next-plugin@2.3.2(@types/node@20.9.2)(next@14.0.3)(webpack@5.89.0):
     resolution: {integrity: sha512-wBulJAhmr8guYo5YxrfsA1T/TQ3tbMJjNtE6QrVZvs1NTnT9/WAmf4IVrbUvQbH+LBj5LXO8dRzueGPAvepSng==}
     peerDependencies:
@@ -5054,12 +5081,12 @@ packages:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
     dev: true
 
-  /@vanilla-extract/vite-plugin@3.9.1(@types/node@20.9.2)(vite@5.0.0):
-    resolution: {integrity: sha512-FI0Tzga+iuqPqFGms9qjeeb+PbdJdIGuG1Yc8gnzHSsRVy61u05wmfSbN9AN+FKzcvV/O1zAvRrusXCXi1oHYA==}
+  /@vanilla-extract/vite-plugin@3.9.2(@types/node@20.9.2)(vite@5.0.0):
+    resolution: {integrity: sha512-WYgWiEs+nw+lNazyW0Ixp0MMgtNgPL+8fFKrol1V5XoNIzRrYPGfuLhRI7PwheSWQVGF7OOer0kUWQcLey1vOQ==}
     peerDependencies:
-      vite: ^2.2.3 || ^3.0.0 || ^4.0.3
+      vite: ^2.2.3 || ^3.0.0 || ^4.0.3 || ^5.0.0
     dependencies:
-      '@vanilla-extract/integration': 6.2.3(@types/node@20.9.2)
+      '@vanilla-extract/integration': 6.2.4(@types/node@20.9.2)
       outdent: 0.8.0
       postcss: 8.4.31
       postcss-load-config: 4.0.1(postcss@8.4.31)
