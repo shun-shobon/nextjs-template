@@ -31,7 +31,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^2.1.3",
+    "@eslint/eslintrc": "^2.1.4",
     "@shun-shobon/eslint-config-base": "^1.0.14",
     "@shun-shobon/eslint-config-next": "^1.0.9",
     "@shun-shobon/eslint-config-react": "^1.0.4",
