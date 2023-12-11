@@ -77,8 +77,8 @@ devDependencies:
     specifier: ^2.3.2
     version: 2.3.2(@types/node@20.10.4)(next@14.0.4)(webpack@5.89.0)
   '@vanilla-extract/vite-plugin':
-    specifier: ^3.9.2
-    version: 3.9.2(@types/node@20.10.4)(vite@5.0.7)
+    specifier: ^3.9.3
+    version: 3.9.3(@types/node@20.10.4)(vite@5.0.7)
   axe-playwright:
     specifier: ^1.2.3
     version: 1.2.3(playwright@1.40.1)
@@ -4806,8 +4806,8 @@ packages:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
     dev: true
 
-  /@vanilla-extract/vite-plugin@3.9.2(@types/node@20.10.4)(vite@5.0.7):
-    resolution: {integrity: sha512-WYgWiEs+nw+lNazyW0Ixp0MMgtNgPL+8fFKrol1V5XoNIzRrYPGfuLhRI7PwheSWQVGF7OOer0kUWQcLey1vOQ==}
+  /@vanilla-extract/vite-plugin@3.9.3(@types/node@20.10.4)(vite@5.0.7):
+    resolution: {integrity: sha512-bGyHG98OYTRs5roLRv7LDeyRnD72+vBLonk8cC9VG/xd6hsiHPPj5GyBwoKElT7DyDRfapxWLwLlhgYynrW2Fw==}
     peerDependencies:
       vite: ^2.2.3 || ^3.0.0 || ^4.0.3 || ^5.0.0
     dependencies:
