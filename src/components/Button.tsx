@@ -1,6 +1,7 @@
 import { clsx } from "clsx";
 
-import { forwardRef } from "../utils/forward-ref";
+import { forwardRef } from "~/libs/forward-ref";
+
 import * as styles from "./Button.css";
 
 export default forwardRef<"button">(

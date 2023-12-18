@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 
-import Button from "../components/Button/Button";
+import Button from "~/components/Button";
+
 import * as styles from "./page.css";
 
 export default function Page(): ReactNode {

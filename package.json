@@ -6,9 +6,6 @@
 	"license": "MIT",
 	"private": true,
 	"packageManager": "pnpm@8.12.1",
-	"imports": {
-		"#src/*": "./src/*"
-	},
 	"scripts": {
 		"build": "next build",
 		"build-storybook": "storybook build",
