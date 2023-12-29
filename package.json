@@ -29,7 +29,7 @@
 	},
 	"devDependencies": {
 		"@next/bundle-analyzer": "^14.0.4",
-		"@shun-shobon/eslint-config": "^0.4.8",
+		"@shun-shobon/eslint-config": "^0.4.9",
 		"@shun-shobon/prettier-config": "^0.2.3",
 		"@storybook/addon-a11y": "^7.6.6",
 		"@storybook/addon-essentials": "^7.6.6",
