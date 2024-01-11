@@ -15,3 +15,7 @@ node_modules/
 
 # Storybook
 /storybook-static/
+
+# Playwright
+/playwright-report/
+/test-results/
