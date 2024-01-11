@@ -91,6 +91,9 @@ devDependencies:
   mini-css-extract-plugin:
     specifier: ^2.7.7
     version: 2.7.7(webpack@5.89.0)
+  playwright:
+    specifier: ^1.40.1
+    version: 1.40.1
   prettier:
     specifier: ^3.1.1
     version: 3.1.1
