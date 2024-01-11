@@ -1,5 +1,6 @@
 import "~/styles/global.css";
 
+import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
 interface LayoutProps {
@@ -13,3 +14,7 @@ export default function Layout({ children }: LayoutProps): ReactNode {
 		</html>
 	);
 }
+
+export const metadata: Metadata = {
+	title: "Next.js template",
+};
