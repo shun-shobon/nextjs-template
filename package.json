@@ -10,16 +10,15 @@
 		"build": "next build",
 		"build-storybook": "storybook build",
 		"dev": "next dev",
-		"lint": "run-p -c 'lint:*'",
-		"lint-fix": "run-s -c 'lint-fix:*'",
-		"lint-fix:eslint": "pnpm lint:eslint --fix",
-		"lint-fix:prettier": "prettier --write .",
-		"lint:eslint": "eslint .",
-		"lint:prettier": "prettier --check .",
-		"lint:tsc": "tsc",
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
+		"lint": "eslint .",
+		"lint:ci": "eslint --max-warnings=0 .",
+		"lint:fix": "eslint --fix .",
 		"start": "next start",
 		"storybook": "storybook dev -p 6006",
-		"test:storybook": "test-storybook"
+		"test:storybook": "test-storybook",
+		"type-check": "tsc --noEmit"
 	},
 	"dependencies": {
 		"clsx": "^2.1.0",
