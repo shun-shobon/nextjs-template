@@ -17,6 +17,7 @@
 		"lint:fix": "eslint --fix .",
 		"start": "next start",
 		"storybook": "storybook dev -p 6006",
+		"test:e2e": "playwright test",
 		"test:storybook": "test-storybook",
 		"type-check": "tsc --noEmit"
 	},

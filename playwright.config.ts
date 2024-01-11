@@ -7,9 +7,15 @@ export default defineConfig({
 	workers: process.env.CI ? 2 : undefined,
 	reporter: process.env.CI ? [["list"], ["github"]] : "html",
 	timeout: 5 * 60 * 1000,
+	webServer: {
+		command: "pnpm run dev",
+		url: "http://localhost:3000",
+		timeout: 120 * 1000,
+		reuseExistingServer: !process.env.CI,
+	},
 	use: {
 		baseURL: "http://localhost:3000",
-		trace: "on-first-retry",
+		trace: "retry-with-trace",
 	},
 	projects: [
 		{
