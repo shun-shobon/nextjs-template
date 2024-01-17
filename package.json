@@ -55,7 +55,7 @@
 		"eslint-plugin-storybook": "^0.6.15",
 		"mini-css-extract-plugin": "^2.7.7",
 		"playwright": "^1.41.0",
-		"prettier": "^3.2.3",
+		"prettier": "^3.2.4",
 		"storybook": "^7.6.8",
 		"style-loader": "^3.3.4",
 		"typescript": "^5.3.3"
