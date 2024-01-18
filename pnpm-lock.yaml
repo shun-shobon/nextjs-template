@@ -77,8 +77,8 @@ devDependencies:
     specifier: ^1.14.0
     version: 1.14.0
   '@vanilla-extract/next-plugin':
-    specifier: ^2.3.2
-    version: 2.3.2(@types/node@20.11.5)(next@14.0.4)(webpack@5.89.0)
+    specifier: ^2.3.3
+    version: 2.3.3(@types/node@20.11.5)(next@14.0.4)(webpack@5.89.0)
   '@vanilla-extract/webpack-plugin':
     specifier: ^2.3.2
     version: 2.3.2(@types/node@20.11.5)(webpack@5.89.0)
@@ -5113,8 +5113,8 @@ packages:
       - terser
     dev: true
 
-  /@vanilla-extract/next-plugin@2.3.2(@types/node@20.11.5)(next@14.0.4)(webpack@5.89.0):
-    resolution: {integrity: sha512-wBulJAhmr8guYo5YxrfsA1T/TQ3tbMJjNtE6QrVZvs1NTnT9/WAmf4IVrbUvQbH+LBj5LXO8dRzueGPAvepSng==}
+  /@vanilla-extract/next-plugin@2.3.3(@types/node@20.11.5)(next@14.0.4)(webpack@5.89.0):
+    resolution: {integrity: sha512-Akpfk7NSGwNmcjSVafSob55mMVd3acJwRTHpZTwxEQ8d1JRe1Wd5TqbzvFRNRyf8yzelWgA9eDNptQ+QCDKG0g==}
     peerDependencies:
       next: '>=12.1.7'
     dependencies:
