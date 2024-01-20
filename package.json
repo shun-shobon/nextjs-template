@@ -30,7 +30,7 @@
 	"devDependencies": {
 		"@axe-core/playwright": "^4.8.3",
 		"@next/bundle-analyzer": "^14.1.0",
-		"@playwright/test": "^1.41.0",
+		"@playwright/test": "^1.41.1",
 		"@shun-shobon/eslint-config": "^0.6.5",
 		"@shun-shobon/prettier-config": "^0.2.4",
 		"@storybook/addon-a11y": "^7.6.8",
@@ -54,7 +54,7 @@
 		"eslint": "^8.56.0",
 		"eslint-plugin-storybook": "^0.6.15",
 		"mini-css-extract-plugin": "^2.7.7",
-		"playwright": "^1.41.0",
+		"playwright": "^1.41.1",
 		"prettier": "^3.2.4",
 		"storybook": "^7.6.8",
 		"style-loader": "^3.3.4",
