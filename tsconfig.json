@@ -10,8 +10,8 @@
 		"noEmit": true,
 		"plugins": [
 			{
-				"name": "next"
-			}
+				"name": "next",
+			},
 		],
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
@@ -20,8 +20,8 @@
 		"allowJs": true,
 		"baseUrl": ".",
 		"paths": {
-			"~/*": ["src/*"]
-		}
+			"~/*": ["src/*"],
+		},
 	},
 	"exclude": [
 		"**/node_modules",
@@ -29,7 +29,7 @@
 		".next/server",
 		".next/static",
 		"out",
-		"storybook-static"
+		"storybook-static",
 	],
 	"include": [
 		"next-env.d.ts",
@@ -37,6 +37,6 @@
 		"**/*.js",
 		"**/*.ts",
 		"**/*.tsx",
-		".storybook/**/*.ts"
-	]
+		".storybook/**/*.ts",
+	],
 }
