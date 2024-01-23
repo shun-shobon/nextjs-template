@@ -5,7 +5,7 @@
 	"description": "Next.js template with vanilla-extract, Storybook, and other tools",
 	"license": "MIT",
 	"private": true,
-	"packageManager": "pnpm@8.14.2",
+	"packageManager": "pnpm@8.14.3",
 	"scripts": {
 		"build": "next build",
 		"build-storybook": "storybook build",
