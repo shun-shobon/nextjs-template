@@ -28,7 +28,7 @@
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@axe-core/playwright": "^4.8.3",
+		"@axe-core/playwright": "^4.8.4",
 		"@next/bundle-analyzer": "^14.1.0",
 		"@playwright/test": "^1.41.1",
 		"@shun-shobon/eslint-config": "^0.6.7",
