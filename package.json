@@ -53,7 +53,7 @@
 		"css-loader": "^6.10.0",
 		"eslint": "^8.56.0",
 		"eslint-plugin-storybook": "^0.6.15",
-		"mini-css-extract-plugin": "^2.7.7",
+		"mini-css-extract-plugin": "^2.8.0",
 		"playwright": "^1.41.1",
 		"prettier": "^3.2.4",
 		"storybook": "^7.6.12",
