@@ -29,7 +29,7 @@
 	},
 	"devDependencies": {
 		"@axe-core/playwright": "^4.8.5",
-		"@next/bundle-analyzer": "^14.1.1",
+		"@next/bundle-analyzer": "^14.1.2",
 		"@playwright/test": "^1.42.1",
 		"@shun-shobon/eslint-config": "^0.7.2",
 		"@shun-shobon/prettier-config": "^0.3.1",

@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^4.8.5
     version: 4.8.5(playwright-core@1.42.1)
   '@next/bundle-analyzer':
-    specifier: ^14.1.1
-    version: 14.1.1
+    specifier: ^14.1.2
+    version: 14.1.2
   '@playwright/test':
     specifier: ^1.42.1
     version: 1.42.1
@@ -2325,8 +2325,8 @@ packages:
       tar-fs: 2.1.1
     dev: true
 
-  /@next/bundle-analyzer@14.1.1:
-    resolution: {integrity: sha512-vM8PLggRNodmJo8FJy6+Bnv4jWsVtOuH87naJA7/sdmBUZrBk2fj3xkI1zwarWzDAYzNYTxiMRGVioyNPxBvXg==}
+  /@next/bundle-analyzer@14.1.2:
+    resolution: {integrity: sha512-d/fjpUtW5iUQV6cHkrnBDyEK/yabmrk6jl05Evz9te0JG4AYNfQnBfXkzAlHaCkmXJ1YkCuo/LgduVQ05JRoHQ==}
     dependencies:
       webpack-bundle-analyzer: 4.10.1
     transitivePeerDependencies:
