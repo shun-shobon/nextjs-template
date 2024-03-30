@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^7.6.17
     version: 7.6.17(react@18.2.0)
   '@storybook/addon-styling-webpack':
-    specifier: ^0.0.6
-    version: 0.0.6(webpack@5.91.0)
+    specifier: ^1.0.0
+    version: 1.0.0(webpack@5.91.0)
   '@storybook/blocks':
     specifier: ^7.6.17
     version: 7.6.17(@types/react-dom@18.2.23)(@types/react@18.2.73)(react-dom@18.2.0)(react@18.2.0)
@@ -3609,12 +3609,12 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
-  /@storybook/addon-styling-webpack@0.0.6(webpack@5.91.0):
-    resolution: {integrity: sha512-JjM2FXFiHpjbJsp7nRUEMhYBRpK6ukBKsbtWzCrAGOfUgoElcGwPY8KhSKSnRknIhebonGK1bxalh3u8bGZ/dw==}
+  /@storybook/addon-styling-webpack@1.0.0(webpack@5.91.0):
+    resolution: {integrity: sha512-jo1kzn7pi+NA+LZxrWoRvW6w7dXIKY/BjTG80XX2uU92lIKT+X1k/9vYk/0KPVK3Bsf4tO6ToAuqIRyOk7MHtg==}
     peerDependencies:
       webpack: ^5.0.0
     dependencies:
-      '@storybook/node-logger': 7.6.17
+      '@storybook/node-logger': 8.0.4
       webpack: 5.91.0(@swc/core@1.4.8)(esbuild@0.18.20)
     dev: true
 
