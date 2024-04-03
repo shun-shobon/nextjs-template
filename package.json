@@ -45,7 +45,7 @@
 		"@storybook/testing-library": "^0.2.2",
 		"@types/node": "^20.12.3",
 		"@types/react": "^18.2.74",
-		"@types/react-dom": "^18.2.23",
+		"@types/react-dom": "^18.2.24",
 		"@vanilla-extract/css": "^1.14.2",
 		"@vanilla-extract/next-plugin": "^2.4.0",
 		"@vanilla-extract/webpack-plugin": "^2.3.7",
