@@ -9,7 +9,7 @@ export default forwardRef<"button">(
 			<Component
 				{...rest}
 				className={twMerge(
-					"bg-blue-500 text-white px-4 py-2 rounded-full",
+					"rounded-full bg-blue-500 px-4 py-2 text-white",
 					className,
 				)}
 				ref={ref}
