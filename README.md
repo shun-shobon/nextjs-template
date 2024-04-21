@@ -1,6 +1,6 @@
 # Next.js Template
 
-Next.js template with vanilla-extract, Storybook, and other tools
+Next.js template with Tailwind CSS, Storybook, and other tools
 
 ## About
 
@@ -11,10 +11,11 @@ Next.jsの開発に必要な周辺ツールやその設定を含んでいるた�
 
 - React + Next.js
 - TypeScript
-- vanilla-extract
+- Tailwind CSS
 - ESLint
   - `@shun-shobon/eslint-config` による包括的な設定が含まれています。
 - Prettier
+  - `@shun-shobon/prettier-config` による包括的な設定が含まれています。
 - Storybook
 - GitHub Actions
 
@@ -56,15 +57,15 @@ pnpm storybook
 pnpm lint
 ```
 
-`lint:<ツール名>`で各ツールを個別に実行することもできます。
+`lint:fix`で自動修正を行うこともできます。
 
-### リンタの自動修正
+### フォーマッタの実行
 
 ```shell
-pnpm lint-fix
+pnpm format
 ```
 
-`lint-fix:<ツール名>`で各ツールを個別に実行することもできます。
+`format:check`でフォーマットのチェックのみを行うこともできます。
 
 ## License
 
