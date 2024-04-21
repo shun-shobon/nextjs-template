@@ -54,7 +54,6 @@
 		"postcss": "8.4.38",
 		"prettier": "3.2.5",
 		"storybook": "8.0.8",
-		"style-loader": "3.3.4",
 		"tailwindcss": "3.4.3",
 		"typescript": "5.4.5"
 	}
