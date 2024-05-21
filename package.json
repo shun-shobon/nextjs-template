@@ -28,7 +28,7 @@
 		"tailwind-merge": "2.3.0"
 	},
 	"devDependencies": {
-		"@axe-core/playwright": "4.9.0",
+		"@axe-core/playwright": "4.9.1",
 		"@chromatic-com/storybook": "1.4.0",
 		"@next/bundle-analyzer": "14.2.3",
 		"@playwright/test": "1.44.0",
