@@ -34,11 +34,11 @@ importers:
         specifier: 1.44.1
         version: 1.44.1
       '@shun-shobon/eslint-config':
-        specifier: 0.12.2
-        version: 0.12.2(@typescript-eslint/parser@7.10.0(eslint@8.57.0)(typescript@5.4.5))(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.10.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0))(eslint@8.57.0)(typescript@5.4.5)
+        specifier: 0.12.3
+        version: 0.12.3(@typescript-eslint/parser@7.10.0(eslint@8.57.0)(typescript@5.4.5))(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.10.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0))(eslint@8.57.0)(typescript@5.4.5)
       '@shun-shobon/prettier-config':
-        specifier: 0.4.1
-        version: 0.4.1(prettier@3.2.5)
+        specifier: 0.4.2
+        version: 0.4.2(prettier@3.2.5)
       '@storybook/addon-a11y':
         specifier: 8.1.3
         version: 8.1.3
@@ -1509,13 +1509,13 @@ packages:
       '@types/react':
         optional: true
 
-  '@shun-shobon/eslint-config@0.12.2':
-    resolution: {integrity: sha512-yTPtAotxCY7ewC46ihn0JYmIfh4ikXAF4eOTwK5QY3nDvhIkz9HgwNfiNi3UnQj0Us63cusn68zNv2YS0WlNig==}
+  '@shun-shobon/eslint-config@0.12.3':
+    resolution: {integrity: sha512-uY7Wk6WP5GBCk3Qj40g32TtnXU1mvaCAGfPb0B265pxD3eBQpWqFgwrETreU8Y64tfknJoSuLkWEI2SCpj8tFw==}
     peerDependencies:
       eslint: ^8.21.0
 
-  '@shun-shobon/prettier-config@0.4.1':
-    resolution: {integrity: sha512-aubL02Y+CbVeAwqHCkBxwiteGime27oAtKSHkd9/CX51M2BzjjqVYwSrHimmjfL3uN/pxwHKZakwTb8cJjTFaQ==}
+  '@shun-shobon/prettier-config@0.4.2':
+    resolution: {integrity: sha512-bxoHs5Y4fX/HMTwvrJb0s9nvjfIY/X8QwMDIN/G8w/SXrEMqxpwQQGCKXhJz6unNgijTgZqlBdnoFWbryPvC6Q==}
     peerDependencies:
       prettier: ^3.0.0
 
@@ -5480,8 +5480,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier-plugin-astro@0.13.0:
-    resolution: {integrity: sha512-5HrJNnPmZqTUNoA97zn4gNQv9BgVhv+et03314WpQ9H9N8m2L9OSV798olwmG2YLXPl1iSstlJCR1zB3x5xG4g==}
+  prettier-plugin-astro@0.14.0:
+    resolution: {integrity: sha512-7jRGJsexaRIyUzTk8uzXlP45cw6DQ5Ci4bTe0xCBCcuO1Fff8jJy9oI+kRCQKSdDFTSAArMSg8GpvzlKBtSaZA==}
     engines: {node: ^14.15.0 || >=16.0.0}
 
   prettier-plugin-jsdoc@1.3.0:
@@ -8342,7 +8342,7 @@ snapshots:
     optionalDependencies:
       '@types/react': 18.3.3
 
-  '@shun-shobon/eslint-config@0.12.2(@typescript-eslint/parser@7.10.0(eslint@8.57.0)(typescript@5.4.5))(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.10.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0))(eslint@8.57.0)(typescript@5.4.5)':
+  '@shun-shobon/eslint-config@0.12.3(@typescript-eslint/parser@7.10.0(eslint@8.57.0)(typescript@5.4.5))(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.10.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0))(eslint@8.57.0)(typescript@5.4.5)':
     dependencies:
       '@eslint/js': 8.57.0
       '@next/eslint-plugin-next': 14.2.3
@@ -8373,14 +8373,14 @@ snapshots:
       - supports-color
       - typescript
 
-  '@shun-shobon/prettier-config@0.4.1(prettier@3.2.5)':
+  '@shun-shobon/prettier-config@0.4.2(prettier@3.2.5)':
     dependencies:
       local-pkg: 0.5.0
       prettier: 3.2.5
-      prettier-plugin-astro: 0.13.0
+      prettier-plugin-astro: 0.14.0
       prettier-plugin-jsdoc: 1.3.0(prettier@3.2.5)
       prettier-plugin-pkg: 0.18.1(prettier@3.2.5)
-      prettier-plugin-tailwindcss: 0.5.14(prettier-plugin-astro@0.13.0)(prettier-plugin-jsdoc@1.3.0(prettier@3.2.5))(prettier@3.2.5)
+      prettier-plugin-tailwindcss: 0.5.14(prettier-plugin-astro@0.14.0)(prettier-plugin-jsdoc@1.3.0(prettier@3.2.5))(prettier@3.2.5)
     transitivePeerDependencies:
       - '@ianvs/prettier-plugin-sort-imports'
       - '@prettier/plugin-pug'
@@ -13798,7 +13798,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-astro@0.13.0:
+  prettier-plugin-astro@0.14.0:
     dependencies:
       '@astrojs/compiler': 1.8.2
       prettier: 3.2.5
@@ -13817,11 +13817,11 @@ snapshots:
     dependencies:
       prettier: 3.2.5
 
-  prettier-plugin-tailwindcss@0.5.14(prettier-plugin-astro@0.13.0)(prettier-plugin-jsdoc@1.3.0(prettier@3.2.5))(prettier@3.2.5):
+  prettier-plugin-tailwindcss@0.5.14(prettier-plugin-astro@0.14.0)(prettier-plugin-jsdoc@1.3.0(prettier@3.2.5))(prettier@3.2.5):
     dependencies:
       prettier: 3.2.5
     optionalDependencies:
-      prettier-plugin-astro: 0.13.0
+      prettier-plugin-astro: 0.14.0
       prettier-plugin-jsdoc: 1.3.0(prettier@3.2.5)
 
   prettier@3.2.5: {}
