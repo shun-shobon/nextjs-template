@@ -22,7 +22,7 @@
 		"type-check": "tsc --noEmit"
 	},
 	"dependencies": {
-		"next": "14.2.4",
+		"next": "14.2.5",
 		"react": "18.3.1",
 		"react-dom": "18.3.1",
 		"tailwind-merge": "2.4.0"
@@ -30,7 +30,7 @@
 	"devDependencies": {
 		"@axe-core/playwright": "4.9.1",
 		"@chromatic-com/storybook": "1.6.1",
-		"@next/bundle-analyzer": "14.2.4",
+		"@next/bundle-analyzer": "14.2.5",
 		"@playwright/test": "1.45.1",
 		"@shun-shobon/eslint-config": "0.13.3",
 		"@shun-shobon/prettier-config": "0.4.6",
