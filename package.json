@@ -47,7 +47,7 @@
 		"@types/node": "20.14.14",
 		"@types/react": "18.3.3",
 		"@types/react-dom": "18.3.0",
-		"autoprefixer": "10.4.19",
+		"autoprefixer": "10.4.20",
 		"axe-playwright": "2.0.1",
 		"eslint": "8.57.0",
 		"playwright": "1.45.3",
