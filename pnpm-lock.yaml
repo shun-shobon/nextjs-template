@@ -25,8 +25,8 @@ importers:
         specifier: 4.10.0
         version: 4.10.0(playwright-core@1.46.1)
       '@chromatic-com/storybook':
-        specifier: 1.7.0
-        version: 1.7.0(react@18.3.1)
+        specifier: 1.8.0
+        version: 1.8.0(react@18.3.1)
       '@next/bundle-analyzer':
         specifier: 14.2.7
         version: 14.2.7
@@ -794,8 +794,8 @@ packages:
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
 
-  '@chromatic-com/storybook@1.7.0':
-    resolution: {integrity: sha512-0aAkSaNsHaJL37/r+TIbpKjCouIysvoJno61LzUSs1xW4fpxF7gdr8xwIOONQjEsz2Fa0uFHXmzkFYcH6o8kmA==}
+  '@chromatic-com/storybook@1.8.0':
+    resolution: {integrity: sha512-vkB9dPVmM2Yvqc/0DJ4MYwOGY1MOjd/KbB9TXTMGN+qshaEyiZtSOgbz9u0ExFALEgDKLmtUnWyUtoGb0pCzUg==}
     engines: {node: '>=16.0.0', yarn: '>=1.22.18'}
 
   '@discoveryjs/json-ext@0.5.7':
@@ -7201,7 +7201,7 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
-  '@chromatic-com/storybook@1.7.0(react@18.3.1)':
+  '@chromatic-com/storybook@1.8.0(react@18.3.1)':
     dependencies:
       chromatic: 11.7.1
       filesize: 10.1.4
