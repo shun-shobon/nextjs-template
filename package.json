@@ -29,7 +29,7 @@
 	},
 	"devDependencies": {
 		"@axe-core/playwright": "4.10.0",
-		"@chromatic-com/storybook": "1.9.0",
+		"@chromatic-com/storybook": "2.0.2",
 		"@next/bundle-analyzer": "14.2.16",
 		"@playwright/test": "1.48.1",
 		"@shun-shobon/eslint-config": "0.13.6",
