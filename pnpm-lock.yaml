@@ -22,8 +22,8 @@ importers:
         version: 2.5.4
     devDependencies:
       '@axe-core/playwright':
-        specifier: 4.10.0
-        version: 4.10.0(playwright-core@1.48.2)
+        specifier: 4.10.1
+        version: 4.10.1(playwright-core@1.48.2)
       '@chromatic-com/storybook':
         specifier: 1.9.0
         version: 1.9.0(react@18.3.1)
@@ -122,8 +122,8 @@ packages:
   '@astrojs/compiler@2.10.3':
     resolution: {integrity: sha512-bL/O7YBxsFt55YHU021oL+xz+B/9HvGNId3F9xURN16aeqDK9juHGktdkCSXz+U4nqFACq6ZFvWomOzhV+zfPw==}
 
-  '@axe-core/playwright@4.10.0':
-    resolution: {integrity: sha512-kEr3JPEVUSnKIYp/egV2jvFj+chIjCjPp3K3zlpJMza/CB3TFw8UZNbI9agEC2uMz4YbgAOyzlbUy0QS+OofFA==}
+  '@axe-core/playwright@4.10.1':
+    resolution: {integrity: sha512-EV5t39VV68kuAfMKqb/RL+YjYKhfuGim9rgIaQ6Vntb2HgaCaau0h98Y3WEUqW1+PbdzxDtDNjFAipbtZuBmEA==}
     peerDependencies:
       playwright-core: '>= 1.0.0'
 
@@ -5736,7 +5736,7 @@ snapshots:
 
   '@astrojs/compiler@2.10.3': {}
 
-  '@axe-core/playwright@4.10.0(playwright-core@1.48.2)':
+  '@axe-core/playwright@4.10.1(playwright-core@1.48.2)':
     dependencies:
       axe-core: 4.10.2
       playwright-core: 1.48.2
