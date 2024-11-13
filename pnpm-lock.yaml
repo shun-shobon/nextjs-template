@@ -44,7 +44,7 @@ importers:
         version: 8.4.3(storybook@8.4.3(prettier@3.3.3))
       '@storybook/addon-essentials':
         specifier: 8.4.3
-        version: 8.4.3(@types/react@18.3.4)(storybook@8.4.3(prettier@3.3.3))(webpack-sources@3.2.3)
+        version: 8.4.3(@types/react@18.3.12)(storybook@8.4.3(prettier@3.3.3))(webpack-sources@3.2.3)
       '@storybook/addon-interactions':
         specifier: 8.4.3
         version: 8.4.3(storybook@8.4.3(prettier@3.3.3))
@@ -73,11 +73,11 @@ importers:
         specifier: 20.17.6
         version: 20.17.6
       '@types/react':
-        specifier: 18.3.4
-        version: 18.3.4
+        specifier: 18.3.12
+        version: 18.3.12
       '@types/react-dom':
-        specifier: 18.3.0
-        version: 18.3.0
+        specifier: 18.3.1
+        version: 18.3.1
       autoprefixer:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.4.49)
@@ -1734,11 +1734,11 @@ packages:
   '@types/prop-types@15.7.13':
     resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
 
-  '@types/react-dom@18.3.0':
-    resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
+  '@types/react-dom@18.3.1':
+    resolution: {integrity: sha512-qW1Mfv8taImTthu4KoXgDfLuk4bydU6Q/TkADnDWWHwi4NX4BR+LWfTp2sVmTqRrsHvyDDTelgelxJ+SsejKKQ==}
 
-  '@types/react@18.3.4':
-    resolution: {integrity: sha512-J7W30FTdfCxDDjmfRM+/JqLHBIyl7xUIp9kwK637FGmY7+mkSFSe6L4jpZzhj5QMfLssSDP4/i75AKkrdC7/Jw==}
+  '@types/react@18.3.12':
+    resolution: {integrity: sha512-D2wOSq/d6Agt28q7rSI3jhU7G6aiuzljDGZ2hTZHIkrTLUI+AF3WMeKkEZ9nN2fkBAlcktT6vcZjDFiIhMYEQw==}
 
   '@types/resolve@1.20.6':
     resolution: {integrity: sha512-A4STmOXPhMUtHH+S6ymgE2GiBSMqf4oTvcQZMcHzokuTLVYzXTB8ttjcgxOVaAp2lGwEdzZ0J+cRbbeevQj1UQ==}
@@ -6995,10 +6995,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@mdx-js/react@3.1.0(@types/react@18.3.4)(react@18.3.1)':
+  '@mdx-js/react@3.1.0(@types/react@18.3.12)(react@18.3.1)':
     dependencies:
       '@types/mdx': 2.0.13
-      '@types/react': 18.3.4
+      '@types/react': 18.3.12
       react: 18.3.1
 
   '@next/bundle-analyzer@14.2.17':
@@ -7184,9 +7184,9 @@ snapshots:
       storybook: 8.4.3(prettier@3.3.3)
       ts-dedent: 2.2.0
 
-  '@storybook/addon-docs@8.4.3(@types/react@18.3.4)(storybook@8.4.3(prettier@3.3.3))(webpack-sources@3.2.3)':
+  '@storybook/addon-docs@8.4.3(@types/react@18.3.12)(storybook@8.4.3(prettier@3.3.3))(webpack-sources@3.2.3)':
     dependencies:
-      '@mdx-js/react': 3.1.0(@types/react@18.3.4)(react@18.3.1)
+      '@mdx-js/react': 3.1.0(@types/react@18.3.12)(react@18.3.1)
       '@storybook/blocks': 8.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.3(prettier@3.3.3))
       '@storybook/csf-plugin': 8.4.3(storybook@8.4.3(prettier@3.3.3))(webpack-sources@3.2.3)
       '@storybook/react-dom-shim': 8.4.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.3(prettier@3.3.3))
@@ -7198,12 +7198,12 @@ snapshots:
       - '@types/react'
       - webpack-sources
 
-  '@storybook/addon-essentials@8.4.3(@types/react@18.3.4)(storybook@8.4.3(prettier@3.3.3))(webpack-sources@3.2.3)':
+  '@storybook/addon-essentials@8.4.3(@types/react@18.3.12)(storybook@8.4.3(prettier@3.3.3))(webpack-sources@3.2.3)':
     dependencies:
       '@storybook/addon-actions': 8.4.3(storybook@8.4.3(prettier@3.3.3))
       '@storybook/addon-backgrounds': 8.4.3(storybook@8.4.3(prettier@3.3.3))
       '@storybook/addon-controls': 8.4.3(storybook@8.4.3(prettier@3.3.3))
-      '@storybook/addon-docs': 8.4.3(@types/react@18.3.4)(storybook@8.4.3(prettier@3.3.3))(webpack-sources@3.2.3)
+      '@storybook/addon-docs': 8.4.3(@types/react@18.3.12)(storybook@8.4.3(prettier@3.3.3))(webpack-sources@3.2.3)
       '@storybook/addon-highlight': 8.4.3(storybook@8.4.3(prettier@3.3.3))
       '@storybook/addon-measure': 8.4.3(storybook@8.4.3(prettier@3.3.3))
       '@storybook/addon-outline': 8.4.3(storybook@8.4.3(prettier@3.3.3))
@@ -7745,11 +7745,11 @@ snapshots:
 
   '@types/prop-types@15.7.13': {}
 
-  '@types/react-dom@18.3.0':
+  '@types/react-dom@18.3.1':
     dependencies:
-      '@types/react': 18.3.4
+      '@types/react': 18.3.12
 
-  '@types/react@18.3.4':
+  '@types/react@18.3.12':
     dependencies:
       '@types/prop-types': 15.7.13
       csstype: 3.1.3
